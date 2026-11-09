@@ -1,0 +1,5 @@
+# HTML 模板体积大且内容含长 base64，禁止 Git 换行符归一化，避免出现整文件 diff 与体积膨胀
+*.html -text
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
